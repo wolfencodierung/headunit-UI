@@ -8,4 +8,5 @@ var month = months[d.getMonth()];
 var mDay = d.getDate();
 var year = d.getFullYear();
 
-document.getElementById("date").innerHTML = wkDay + ", " + month + sep + mDay + "," + sep + year + sep;
+document.getElementById("date1").innerHTML = wkDay;
+document.getElementById("date2").innerHTML =  month + sep + mDay + "," + sep + year + sep;
