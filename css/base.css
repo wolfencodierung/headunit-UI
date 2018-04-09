@@ -1,0 +1,112 @@
+body {
+    background: url("/img/metallic-bg.jpg");
+    background-image: url("/img/metallic-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+}
+
+.wrapper-main {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 18% 5% 77%;
+    grid-column-gap: 5px;
+    grid-row-gap: 60px;
+    padding: 0 75px 0 75px;
+}
+.info-section {
+    display: grid;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    padding: 0 0 0 0;
+    margin: 0 0 0px 0;
+}
+.main-section {
+    display: grid;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    grid-template-columns: repeat (5, 100px);
+    grid-template-rows: repeat (2, 300px);
+    padding: 0 0 0 0;
+}
+.separator-section {
+    display: grid;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    margin: 0 0 24px 0;
+    padding: 0 0 0 0;
+}
+
+/*
+.nav-section {
+    display: grid;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    background: white;
+    border: 1px solid black;
+} */
+
+.icon-main {
+    width: 300px;
+    height: auto;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+.label {
+    font-size: 30px;
+    margin: 0 0 80px 0;
+    text-align: center;
+    color: rgb(214, 214, 214);
+}
+.label-2 {
+    font-size: 30px;
+    margin: 0 0 0px 0;
+    text-align: center;
+    color: rgb(214, 214, 214);
+}
+
+div.main-section > div {
+    text-align: center;
+}
+
+.open-program {
+    margin: 12px 0 12px 24px;
+    text-align: left;
+    font-size: 55px;
+    color: rgb(214, 214, 214);
+    display: none;
+}
+.open-program:active {
+    margin: 36px 0 0x 24px;
+    text-align: left;
+    font-size: 50px;
+    color: rgb(214, 214, 214);
+    line-height: 34px;
+}
+.date {
+    margin: 36px 0 0px 0;
+    font-size: 45px;
+    color: rgb(214, 214, 214);
+    line-height: 34px;
+}
+.time {
+    margin: 36px 24px 0px 0;
+    text-align: right;
+    font-size: 45px;
+    color: rgb(214, 214, 214);
+    line-height: 34px;
+}
+
+.top-line {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 255, 0),
+    rgba(255, 255, 255, 0.75),
+    rgba(255, 255, 255, 0)
+    );
+    width: 100%;
+    margin: 0 0 0 0;
+}
