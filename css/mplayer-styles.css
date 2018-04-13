@@ -179,7 +179,7 @@ body, html{
 ---------------------------*/
 
 #playlist {
-	position: absolute;
+	position: relative;
 	display: -webkit-flex;
 	display: flex;
 	-webkit-flex: 3;
@@ -190,7 +190,7 @@ body, html{
 /*	Currently playing track details	*/
 
 #track-details{
-	position: absolute;
+	position: relative;
 	-webkit-flex: 1;
 	flex:1;
 	display: -webkit-flex;
