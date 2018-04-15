@@ -1,7 +1,7 @@
 body {
     background-image: url(../img/metallic-bg.jpg);
+    background-size: 100% auto;
     background-repeat: no-repeat;
-    background-size: 100%;
     font-family: "Lato", sans-serif;
     font-weight: 600;
 }
@@ -11,7 +11,7 @@ body {
     grid-template-columns: 100%;
     grid-template-rows: 18% 5% 77%;
     grid-column-gap: 5px;
-    grid-row-gap: 30px;
+    grid-row-gap: 20px;
     padding: 0 75px 0 75px;
 }
 .info-section {
@@ -47,19 +47,19 @@ body {
 } */
 
 .icon-main {
-    width: 200px;
+    width: 150px;
     height: auto;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
 }
 .label {
-    font-size: 30px;
-    margin: 0 0 80px 0;
+    font-size: 18px;
+    margin: 0 0 30px 0;
     text-align: center;
     color: rgb(214, 214, 214);
 }
 .label-2 {
-    font-size: 30px;
+    font-size: 18px;
     margin: 0 0 0px 0;
     text-align: center;
     color: rgb(214, 214, 214);
@@ -85,22 +85,22 @@ div.main-section > div {
 }
 .calendar-1 {
     margin: 12px 0 0px 0;
-    font-size: 28px;
+    font-size: 25px;
     color: rgb(214, 214, 214);
     line-height: 20px;
 }
 .calendar-2 {
     margin: 16px 0 0px 0;
-    font-size: 28px;
+    font-size: 25px;
     color: rgb(214, 214, 214);
     line-height: 20px;
 }
 #time {
-    margin: 36px 24px 0px 0;
+    margin: 30px 24px 0px 0;
     text-align: right;
-    font-size: 28px;
+    font-size: 25px;
     color: rgb(214, 214, 214);
-    line-height: 28px;
+    line-height: 20px;
 }
 .top-line {
     border: 0;
