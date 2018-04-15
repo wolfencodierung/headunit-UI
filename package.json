@@ -1,0 +1,14 @@
+{
+  "name": "electronhui",
+  "version": "1.0.0",
+  "description": "Headunit UI",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Carlos Cruz",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^1.8.4"
+  }
+}
