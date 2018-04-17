@@ -3,33 +3,37 @@
 <head>
     <title>Music Player</title>
     <link rel="stylesheet" href="css/aplayer.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div id="wrapper-main">
-        <div id="wrapper-side-panel">
-            <div id="search-bar">Search</div>
-            <div id="playlist-controls">Control</div>
-            <div id="playlist-area">Playlist</div>
-        </div>
-
-        <div id="wrapper-main-content">
-            <div id="cover-art">
-                <img id="cover-art-image" src="/mplayer/assets/img/default-1.png" alt="">
-                <p>Title</p>    
-                <p>Artist</p>
-            </div>   
-            <div id="wave">Wave</div>
-            <div id="controls">
-                <div id="previous-button" title="Previous"><i class="fa fa-fast-backward"></i></div>
-                <div id="play-button" title="Play"><i class="fa fa-play"></i></div>
-                <div id="pause-button" title="Pause"><i class="fa fa-pause"></i></div>
-                <div id="stop-button" title="Stop"><i class="fa fa-stop"></i></div>
-                <div id="next-button" title="Next"><i class="fa fa-fast-forward"></i></div>
-                <div id="shuffle-button" title="Shuffle Off"><i class="fa fa-random"></i></div>
-                <div id="repeat-button" title="Repeat Off"><i class="fa fa-refresh"></i></div>
+    <header>
+        <div id="control-wrapper">
+            <div id="artwork"><img src="/img/artwork-sample.jpg "></div>
+            <div id="music-data">
+                
             </div>
-        </div>  
-    </div> 
+            <div id="controls">
+                <div id="song-name">Learning to fly</div>
+                <div id="artist">Tom Petty</div>
+                <div id="progress-bar">
+                    <img class="wavesample" src="/img/wavesample.png" alt="">
+                </div>
+                <div id="control-buttons">
+                    <div id="previous-button" title="Previous"><i class="fa fa-fast-backward nav-button"></i></div>
+                    <div id="play-button" title="Play"><i class="fa fa-play nav-button"></i></div>
+                    <div id="pause-button" title="Pause"><i class="fa fa-pause nav-button"></i></div>
+                    <div id="stop-button" title="Stop"><i class="fa fa-stop nav-button"></i></div>
+                    <div id="next-button" title="Next"><i class="fa fa-fast-forward nav-button"></i></div>
+                </div>
+                
+            </div>
+            <div id="volume">
+                <div id="shuffle-button" title="Shuffle Off"><i class="fa fa-random nav-button"></i></div>
+                <div id="repeat-button" title="Repeat Off"><i class="fas fa-sync-alt nav-button"></i></div>
+            </div>
+        </div>
+    </header>
+    <main></main>
+    <footer></footer>
 </body>
 </html>
